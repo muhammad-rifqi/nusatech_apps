@@ -14,7 +14,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg0NDU2LCJleHAiOjE3MjkxODUzNTZ9.DR6mWs25wFEei2WzaYD3ZDsGrQM3DjLY9vClPPI2LyU",
 							"type": "string"
 						}
 					]
@@ -31,12 +31,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/profile/update",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/profile/update",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"profile",
 						"update"
@@ -53,7 +54,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg0NDU2LCJleHAiOjE3MjkxODUzNTZ9.DR6mWs25wFEei2WzaYD3ZDsGrQM3DjLY9vClPPI2LyU",
 							"type": "string"
 						}
 					]
@@ -72,17 +73,18 @@
 						{
 							"key": "photo",
 							"type": "file",
-							"src": "/D:/data/154.jpg"
+							"src": "/D:/data/profile.jpeg"
 						}
 					]
 				},
 				"url": {
-					"raw": "http://localhost:5000/profile/image",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/profile/image",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"profile",
 						"image"
@@ -106,12 +108,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/login",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/login",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"login"
 					]
@@ -127,7 +130,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg2MjU5LCJleHAiOjE3MjkxODcxNTl9.w2jpvv0He5seMUuUdaozkYLVoWiphN4el5-perY2szY",
 							"type": "string"
 						}
 					]
@@ -135,12 +138,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/balance",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/balance",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"balance"
 					]
@@ -156,7 +160,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg2MjU5LCJleHAiOjE3MjkxODcxNTl9.w2jpvv0He5seMUuUdaozkYLVoWiphN4el5-perY2szY",
 							"type": "string"
 						}
 					]
@@ -173,12 +177,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/topup",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/topup",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"topup"
 					]
@@ -194,7 +199,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg2MjU5LCJleHAiOjE3MjkxODcxNTl9.w2jpvv0He5seMUuUdaozkYLVoWiphN4el5-perY2szY",
 							"type": "string"
 						}
 					]
@@ -211,12 +216,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/transaction",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/transaction",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"transaction"
 					]
@@ -232,7 +238,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg2MjU5LCJleHAiOjE3MjkxODcxNTl9.w2jpvv0He5seMUuUdaozkYLVoWiphN4el5-perY2szY",
 							"type": "string"
 						}
 					]
@@ -240,12 +246,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/transaction/history",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/transaction/history",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"transaction",
 						"history"
@@ -269,12 +276,13 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:5000/registration",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/registration",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"registration"
 					]
@@ -315,24 +323,18 @@
 			"name": "Banner",
 			"request": {
 				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAbnV0ZWNoLWludGVncmFzaS5jb20iLCJpYXQiOjE3MjkxODIyNjEsImV4cCI6MTcyOTE4MzE2MX0.CjSINMKf__kUpH_ibqt8NiNrLhL__ZFBo5b2GY6vWSA",
-							"type": "string"
-						}
-					]
+					"type": "noauth"
 				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/banner",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/banner",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"banner"
 					]
@@ -344,24 +346,18 @@
 			"name": "Services",
 			"request": {
 				"auth": {
-					"type": "bearer",
-					"bearer": [
-						{
-							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAbnV0ZWNoLWludGVncmFzaS5jb20iLCJpYXQiOjE3MjkxODIyNjEsImV4cCI6MTcyOTE4MzE2MX0.CjSINMKf__kUpH_ibqt8NiNrLhL__ZFBo5b2GY6vWSA",
-							"type": "string"
-						}
-					]
+					"type": "noauth"
 				},
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/services",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/services",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"services"
 					]
