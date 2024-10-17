@@ -41,13 +41,13 @@ app.post('/registration', async (req, res) => {
       res.status(200).json({
         "status": 0,
         "message": "Registrasi berhasil silahkan login",
-        "data": sql
+        "data": null
       });
     } else {
       res.status(200).json({
         "status": 102,
         "message": "Paramter email tidak sesuai format",
-        "data": sql
+        "data": null
       })
     }
   }
@@ -316,5 +316,7 @@ app.get('/transaction/history', auth, async (req, res) => {
     })
   }
 })
+
+//::::::::::::::::::::::::::::::::::::::::::::::: END OF TRANSACTION ::::::::::::::::::::::::::::::::::::::::::::::::::
 
 app.listen(5000);
