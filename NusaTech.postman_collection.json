@@ -100,7 +100,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"user2@nutech-integrasi.com\",\r\n  \"password\": \"abcdef1234\"\r\n}",
+					"raw": "{\r\n  \"email\": \"user@nutech-integrasi.com\",\r\n  \"password\": \"abcdef1234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -130,7 +130,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTg2MjU5LCJleHAiOjE3MjkxODcxNTl9.w2jpvv0He5seMUuUdaozkYLVoWiphN4el5-perY2szY",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAbnV0ZWNoLWludGVncmFzaS5jb20iLCJpYXQiOjE3MjkxODY3MDQsImV4cCI6MTcyOTE4NzYwNH0.9_qzBiwIHvTu1XvLezlia1CiF4nDDJ2f-XG-Aopl42M",
 							"type": "string"
 						}
 					]
@@ -268,7 +268,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n  \"email\": \"user2@nutech-integrasi.com\",\r\n  \"first_name\": \"User\",\r\n  \"last_name\": \"Nutech\",\r\n  \"password\": \"abcdef1234\"\r\n}",
+					"raw": "{\r\n  \"email\": \"user@nutech-integrasi.com\",\r\n  \"first_name\": \"User\",\r\n  \"last_name\": \"Nutech\",\r\n  \"password\": \"abcdef1234\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -298,7 +298,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXIyQG51dGVjaC1pbnRlZ3Jhc2kuY29tIiwiaWF0IjoxNzI5MTgzMDYyLCJleHAiOjE3MjkxODM5NjJ9.o3vVCt_44NSK_CC5xREDMrKQ6C3h_b9yKBemcQERJYA",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InVzZXJAbnV0ZWNoLWludGVncmFzaS5jb20iLCJpYXQiOjE3MjkxODY3MDQsImV4cCI6MTcyOTE4NzYwNH0.9_qzBiwIHvTu1XvLezlia1CiF4nDDJ2f-XG-Aopl42M",
 							"type": "string"
 						}
 					]
@@ -306,12 +306,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:5000/profile",
-					"protocol": "http",
+					"raw": "https://sample.rifhandi.com/profile",
+					"protocol": "https",
 					"host": [
-						"localhost"
+						"sample",
+						"rifhandi",
+						"com"
 					],
-					"port": "5000",
 					"path": [
 						"profile"
 					]

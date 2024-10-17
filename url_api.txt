@@ -1,0 +1,11 @@
+Registrasi : https://sample.rifhandi.com/registration
+Login : https://sample.rifhandi.com/login
+Update Profile : https://sample.rifhandi.com/profile/update
+Update Profile Image : https://sample.rifhandi.com/profile/image
+View Profile : https://sample.rifhandi.com/profile
+Banner: https://sample.rifhandi.com/banner
+Service : https://sample.rifhandi.com/services
+Balance : https://sample.rifhandi.com/balance
+Top Up : https://sample.rifhandi.com/topup
+Transaction : https://sample.rifhandi.com/transaction
+History : https://sample.rifhandi.com/transaction/history
