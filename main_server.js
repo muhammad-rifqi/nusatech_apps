@@ -206,7 +206,7 @@ app.get('/balance', auth, async (req, res) => {
   const token = authHeader && authHeader.split(' ')[1];
   const decoded = jwt.verify(token, process.env.ACCESS_TOKEN);
   const userEmail = decoded.email;
-  const sql = await executeQuery('select *,sum(balances) as jumlah from balance where email= ? ', [userEmail]);
+  const sql = await executeQuery('select *,sum(balances) as jumlah from balance where email= ? group by email', [userEmail]);
   if (sql.length > 0) {
     res.status(200).json({
       "status": 0,
